@@ -1,0 +1,13 @@
+.drawer {
+    background-color: #F1D302;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.drawer {
+    width: 40%;
+}

@@ -1,0 +1,17 @@
+.toolbar {
+    max-width: 3000px;
+}
+
+.avatarStyle {
+    height: 56px;
+    width: 56px;
+    margin-right: auto;
+}
+
+.tab {
+    border-radius: 5px;
+}
+
+.MuiTabs-indicator {
+    color: black;
+}

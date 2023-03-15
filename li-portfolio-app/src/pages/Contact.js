@@ -10,8 +10,14 @@ import Navbar from "../components/navbar/Navbar";
 
 function Contact() {
     return (
+        <>
+        <Navbar />
 
+    
         <h1>Contact me</h1>
+        
+        </>
+        
     )
 
 }

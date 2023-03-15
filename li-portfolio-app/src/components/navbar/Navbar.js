@@ -1,21 +1,45 @@
-import React,{useState} from 'react'
-import { AppBar, Toolbar, Avatar, Typography, Tabs, Tab} from '@mui/material'
-import logo from './li-headshot-2.jpeg'
+import React, { useState } from 'react'
+import { AppBar, Toolbar, Avatar, Typography, Tabs, Tab, useMediaQuery, useTheme } from '@mui/material'
+import logo from './li-headshot-2.png'
+import Drawer from '../drawer/Drawer'
+import DrawerComp from '../drawer/Drawer'
+import './Navbar.css'
 
 
 const Navbar = () => {
     const [value, setValue] = useState();
+    const theme = useTheme();
+    const mediaSM = useMediaQuery(theme.breakpoints.down('sm'));
+
     return (
         <React.Fragment>
-            <AppBar sx={{ background: '#F1D302', color: '#242325'}}>
-                <Toolbar>
-                    <Avatar src={logo} sx={{ width: 56, height: 56 }}/>
-                    <Tabs textColor='inherit' value={value} onChange={(e,value) => setValue(value)} indicatorColor='#EFB0A1'>
-                        <Tab label="Lewis Ingleton" />
-                        <Tab label="Projects"/>
-                        <Tab label="Contact"/>
-                    </Tabs>
+            <AppBar sx={{ background: '#F1D302', color: '#242325' }}>
+                <Toolbar className='toolbar'>
+                    {
+                        mediaSM ? (
+                            <>
+                                <Avatar className='avatarStyle' src={logo} sx={{ width: 56, height: 56 }} />
+                                <DrawerComp />
+                            </>
+                        ) : (
+                            <>
+                                <Avatar className='avatarStyle' src={logo} sx={{ width: 56, height: 56 }} />
+                                <Tabs textColor='inherit' value={value} onChange={(e, value) => setValue(value)} indicatorColor='primary'>
+                                    <Tab label="Home" />
+                                    <Tab label="Projects" />
+                                    <Tab label="Contact" />
+                                </Tabs>
+                            </>
+
+                        )
+
+                    }
+
+
+
                 </Toolbar>
+
+
             </AppBar>
         </React.Fragment>
     )
