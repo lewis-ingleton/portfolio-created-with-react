@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "../components/navbar/Navbar";
 
-return Projects() {
+function Projects() {
     return (
         <>
-            <Header backgroundImage=""
+        
         
         
         </>

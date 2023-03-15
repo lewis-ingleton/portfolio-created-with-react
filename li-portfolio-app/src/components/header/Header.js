@@ -1,11 +1,11 @@
 import React from "react";
 import "./Header.css";
-import logo from './laptop-hero.jpg'
+import "./Header.css";
 
 function Header() {
     return (
         <React.Fragment>
-            
+            <img className="hero"/>
 
 
         </React.Fragment>

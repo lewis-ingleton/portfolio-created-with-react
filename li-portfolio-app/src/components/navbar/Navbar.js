@@ -10,7 +10,7 @@ const Navbar = () => {
             <AppBar sx={{ background: '#F1D302', color: '#242325'}}>
                 <Toolbar>
                     <Avatar src={logo} sx={{ width: 56, height: 56 }}/>
-                    <Tabs textColor='inherit' value={value} onChange={(e,value) => setValue(value)} indicatorColor='secondary'>
+                    <Tabs textColor='inherit' value={value} onChange={(e,value) => setValue(value)} indicatorColor='#EFB0A1'>
                         <Tab label="Lewis Ingleton" />
                         <Tab label="Projects"/>
                         <Tab label="Contact"/>
