@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { AppBar, Toolbar, Avatar, Typography, Tabs, Tab} from '@mui/material'
-import logo from './li-pic-modified.jpg'
+import logo from './li-headshot.jpeg'
 
 
 const Navbar = () => {
