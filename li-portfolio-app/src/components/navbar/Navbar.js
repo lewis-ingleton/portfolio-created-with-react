@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { AppBar, Toolbar, Avatar, Typography, Tabs, Tab, useMediaQuery, useTheme } from '@mui/material'
 import logo from './li-headshot-2.png'
-import Drawer from '../drawer/Drawer'
 import DrawerComp from '../drawer/Drawer'
 import './Navbar.css'
 

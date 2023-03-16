@@ -1,14 +1,14 @@
 import React from "react";
 
-function Projects() {
+function Home() {
     return (
         <>
         
-        <h1>Projects</h1>
+        <h1>Home page</h1>
         
         </>
 
     )
 }
 
-export default Projects;
+export default Home;
