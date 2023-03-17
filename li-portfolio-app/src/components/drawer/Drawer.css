@@ -5,9 +5,10 @@
 .list {
     display: flex;
     flex-direction: column;
-
 }
 
-.drawer {
-    width: 40%;
+
+.NavLinks {
+    text-decoration: none;
+    color: #242325;
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Drawer.css";
 import { Drawer, IconButton, List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu';
+import { NavLink } from 'react-router-dom'
 
 
 function DrawerComp() {
@@ -14,21 +15,32 @@ function DrawerComp() {
                 <List>
                     <ListItemButton className="list">
                         <ListItemIcon>
-                            <ListItemText>
+                            <NavLink className='NavLinks' to='/'>
+                            <ListItemText >
                                 Home
                             </ListItemText>
+                            </NavLink>
+                            
                         </ListItemIcon>
+                        </ListItemButton>
 
+                    <ListItemButton className="list">
                         <ListItemIcon>
+                        <NavLink className='NavLinks' to='/projects'>
                             <ListItemText>
                                 Projects
                             </ListItemText>
+                            </NavLink>
                         </ListItemIcon>
+                        </ListItemButton>
 
+                        <ListItemButton className="list">
                         <ListItemIcon>
+                        <NavLink className='NavLinks' to='/contact'>
                             <ListItemText>
                                 Contact
                             </ListItemText>
+                            </NavLink>
                         </ListItemIcon>
 
                     </ListItemButton>

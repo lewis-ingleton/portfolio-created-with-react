@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
-import { AppBar, Toolbar, Avatar, Typography, Tabs, Tab, useMediaQuery, useTheme } from '@mui/material'
+import { AppBar, Toolbar, Avatar, Tabs, Tab, useMediaQuery, useTheme } from '@mui/material'
+import { NavLink } from 'react-router-dom';
+
+
+
 import logo from './li-headshot-2.png'
 import DrawerComp from '../drawer/Drawer'
 import './Navbar.css'
 
 
-function Navbar(props) {
+function Navbar() {
     const [value, setValue] = useState();
     const theme = useTheme();
     const mediaSM = useMediaQuery(theme.breakpoints.down('sm'));
@@ -24,9 +28,9 @@ function Navbar(props) {
                             <>
                                 <Avatar className='avatarStyle' src={logo} sx={{ width: 56, height: 56 }} />
                                 <Tabs textColor='inherit' value={value} onChange={(e, value) => setValue(value)} indicatorColor='primary'>
-                                    <Tab label="Home" />
-                                    <Tab label="Projects" />
-                                    <Tab label="Contact" />
+                                    <NavLink className='NavLinks' to='/'><Tab label="Home" /></NavLink>
+                                    <NavLink className='NavLinks' to='/projects'><Tab label="Projects" /></NavLink>
+                                    <NavLink className='NavLinks' to='/contact'><Tab label="Contact" /></NavLink>
                                 </Tabs>
                             </>
 

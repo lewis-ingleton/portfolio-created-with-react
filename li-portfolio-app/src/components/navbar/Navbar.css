@@ -4,10 +4,6 @@
     
 }
 
-.toolbar {
-    max-width: 3000px;
-
-}
 
 .avatarStyle {
     height: 56px;
@@ -15,10 +11,12 @@
     margin-right: auto;
 }
 
-.tab {
-    border-radius: 5px;
+.NavLinks {
+    text-decoration: none;
+    color: #242325;
 }
 
-.MuiTabs-indicator {
-    color: black;
+.active {
+    background-color: white;
+    border-radius: 5px;
 }
