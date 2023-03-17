@@ -24,9 +24,9 @@ function Navbar(props) {
                             <>
                                 <Avatar className='avatarStyle' src={logo} sx={{ width: 56, height: 56 }} />
                                 <Tabs textColor='inherit' value={value} onChange={(e, value) => setValue(value)} indicatorColor='primary'>
-                                    <Tab onClick={() => props.setPage('Home')} label="Home" />
-                                    <Tab onClick={() => props.setPage('Projects')} label="Projects" />
-                                    <Tab onClick={() => props.setPage('Contact')} label="Contact" />
+                                    <Tab label="Home" />
+                                    <Tab label="Projects" />
+                                    <Tab label="Contact" />
                                 </Tabs>
                             </>
 
