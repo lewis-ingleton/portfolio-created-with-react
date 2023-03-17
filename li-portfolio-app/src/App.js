@@ -5,7 +5,7 @@ import Contact from './pages/Contact'
 import { useState } from 'react';
 
 import Navbar from "./components/navbar/Navbar";
-// import Header from "./components/header/Header";
+import Header from "./components/header/Header";
 // import DrawerComp from "./components/drawer/Drawer";
 // import { resolveBreakpointValues } from '@mui/system/breakpoints';
 
@@ -34,7 +34,7 @@ function App() {
     <>
       <Navbar setPage={setPage}/>
       {handlePageView()}
-
+      
       
     </>
   );
