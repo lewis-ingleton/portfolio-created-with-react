@@ -2,11 +2,12 @@ import React from "react";
 import ProjectCard from "../components/projectCard/ProjectCard"
 import projects from '../projects.json';
 import FlexWrapper from "../components/flex-wrapper/FlexWrapper";
+import Header from "../components/header/Header";
 
 function Projects() {
     return (
         <>
-            <h1>Projects </h1>
+           <h1>Projects</h1>
             <div className="flex">
             <ProjectCard
                     title={projects[0].title}

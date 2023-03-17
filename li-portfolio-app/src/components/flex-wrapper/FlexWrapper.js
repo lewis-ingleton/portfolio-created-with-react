@@ -6,7 +6,6 @@ function FlexWrapper() {
     return (
         <div className='flex'>
 
-
         </div>
 
 

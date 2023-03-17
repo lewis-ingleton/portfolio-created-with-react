@@ -1,47 +1,49 @@
 .card {
-    background: #fff;
-    border-radius: 5px;
-    margin: 1rem;
-    position: relative;
-    width: 325px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-    text-align: left;
-    padding-bottom: 20px;
-    height: 350px;
-  }
-  
-  .card > .img-container {
-    height: 40%;
-    overflow: hidden;
-    text-align: center;
-  }
-  
-  .card > .content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-size: 15px;
-  }
-  
-  .card > .content > ul {
-    list-style-type: none;
-  }
-  
-  .card > .content > ul > li {
-    margin-top: 18px;
-  }
+  background: #fff;
+  border-radius: 5px;
+  margin: 1rem;
+  position: relative;
+  width: 325px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+  padding-bottom: 20px;
+  height: 350px;
+}
 
-  .content > a > button {
-    background-color: #F1D302;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-   
-  }
+.card>.img-container {
+  height: 40%;
+  overflow: hidden;
+  text-align: center;
+}
 
-  .content > a > button:hover {
-    border: 1px solid #F1D302;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: white;
-  }
-  
+.card>.content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+}
+
+.card>.content>ul {
+  list-style-type: none;
+}
+
+.card>.content>ul>li {
+  margin-top: 18px;
+}
+
+.content>a>button {
+  background-color: #F1D302;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+
+.content>a>button:hover {
+  border: 1px solid #F1D302;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
