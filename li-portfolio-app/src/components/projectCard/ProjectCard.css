@@ -7,15 +7,13 @@
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     text-align: left;
     padding-bottom: 20px;
+    height: 350px;
   }
   
   .card > .img-container {
-    height: 60%;
+    height: 40%;
     overflow: hidden;
     text-align: center;
-  }
-  .card > .img-container > img {
-    width: 60%
   }
   
   .card > .content {
@@ -32,7 +30,7 @@
     margin-top: 18px;
   }
 
-  button {
+  .content > a > button {
     background-color: #F1D302;
     padding: 10px;
     border-radius: 5px;
@@ -40,7 +38,7 @@
    
   }
 
-  button:hover {
+  .content > a > button:hover {
     border: 1px solid #F1D302;
     padding: 10px;
     border-radius: 5px;

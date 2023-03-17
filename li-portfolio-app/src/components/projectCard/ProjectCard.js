@@ -10,11 +10,9 @@ function ProjectCard(props) {
       <div className="content">
         <h3>{props.title}</h3>
         <p>{props.description}</p>
-        <button src={props.link}>Go to GitHub repo</button>
+        <a href={props.link} target="_blank"><button>Go to GitHub repo</button></a>
       </div>
     </div>
-
-
     )
 }
 
