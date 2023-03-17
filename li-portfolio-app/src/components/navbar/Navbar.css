@@ -1,5 +1,12 @@
+.appbar {
+    background-color: #F1D302;
+    color: #242325;
+    
+}
+
 .toolbar {
     max-width: 3000px;
+
 }
 
 .avatarStyle {
