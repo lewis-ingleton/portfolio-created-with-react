@@ -1,49 +1,45 @@
 [
     {
         "id": 1,
-        "title": "Project 1",
+        "title": "Weather dashboard",
         "image": "xxx",
-        "description": "xxx",
-        "button": "github link"
+        "description": "Using the Open Weather API, this dashboard shows the user the weather for today, as well as a 5-day forecast, for the country they have searched.",
+        "link": "https://github.com/lewis-ingleton/weather-dashboard"
     },
     {
         "id": 2,
-        "title": "Project 2",
+        "title": "Team profile generator",
         "image": "xxx",
-        "description": "xxx",
-        "button": "github link"
+        "description": "This team profile generator uses node.js and the Inquirer package so that a user can answer questions to generate a HTML file that shows profile of their team members.",
+        "link": "https://github.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator"
     },
     {
         "id": 3,
-        "title": "Project 3",
+        "title": "Work day scheduler",
         "image": "xxx",
-        "description": "xxx",
-        "button": "github link"
+        "description": "A simple calendar application that allows a user to save events for each hour of the day. This code uses DOM manipulation, advanced JavaScript and integration of third-party APIs.",
+        "link": "https://github.com/lewis-ingleton/Daily-Planner-App"
     },
     {
         "id": 4,
-        "title": "Project 4",
+        "title": "ReadME generator",
         "image": "xxx",
-        "description": "xxx",
-        "button": "github link"
+        "description": "This README generator uses node.js so that a user can answer questions to generate a README.md file.",
+        "link": "https://github.com/lewis-ingleton/Readme-generator"
     },
     {
         "id": 5,
-        "title": "Project 5",
+        "title": "Bootstrap portfolio",
         "image": "xxx",
-        "description": "xxx",
-        "button": "github link"
+        "description": "A personal portfolio using Bootstrap framework.",
+        "link": "https://github.com/lewis-ingleton/Bootstrap-Portfolio"
     },
     {
         "id": 6,
-        "title": "Project 6",
+        "title": "Horiseon homepage refactoring",
         "image": "xxx",
-        "description": "xxx",
-        "button": "github link"
-    },
-
-
-
-
+        "description": " have refactored the existing HTML and CSS files in order to improve the accesibility and semantic structure of the Horiseon homepage.",
+        "link": "https://github.com/lewis-ingleton/horiseon-homepage-refactoring"
+    }
 
 ]
