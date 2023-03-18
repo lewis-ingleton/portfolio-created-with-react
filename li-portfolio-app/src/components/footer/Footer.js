@@ -1,12 +1,12 @@
 import './Footer.css'
-import GHicon from './github-mark-white.png'
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 function Footer() {
     return (
         <>
             <footer>
                 <p>Lewis Ingleton 2023 | Made using React</p>
-                <a href="https://github.com/lewis-ingleton" target="_blank">My GitHub</a>
+                <a href="https://github.com/lewis-ingleton" target="_blank">My GitHub<OpenInNewIcon fontSize="inherit"/></a>
             </footer>
 
         </>
