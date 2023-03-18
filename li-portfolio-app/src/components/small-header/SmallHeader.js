@@ -3,8 +3,6 @@ import React from "react";
 // CSS
 import './SmallHeader.css'
 
-
-
 function SmallHeader(props) {
     return (
         <>
