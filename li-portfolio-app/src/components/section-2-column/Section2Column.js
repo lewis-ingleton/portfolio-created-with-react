@@ -12,14 +12,14 @@ function TwoColumn(props) {
         <>
             {
                 mediaSM ? (
-                    <div className="twoColumn">
+                    <div className="twoColumnMobile">
                         <div className="colMobile">{props.leftColumn}</div>
                         <div className="colMobile">{props.rightColumn}</div>
 
                     </div>
 
                 ) : (
-                    <div className="twoColumn">
+                    <div className="twoColumnDesktop">
                         <div className="colDesktop">{props.leftColumn}</div>
                         <div className="colDesktop">{props.rightColumn}</div>
                     </div>

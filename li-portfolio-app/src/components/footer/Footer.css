@@ -8,8 +8,6 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 70px 0px;
-    position: absolute;
-    
 }
 
 footer>a {

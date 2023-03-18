@@ -1,4 +1,4 @@
-.twoColumn {
+.twoColumnDesktop {
     display: flex;
     flex-direction: row;
     width: 70%;
@@ -6,6 +6,18 @@
     max-width: 1300px;
     flex-wrap: wrap;
     margin-bottom: 100px;
+    height: 40%;
+}
+
+.twoColumnMobile {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    height: 60%;
 }
 
 .colDesktop {
