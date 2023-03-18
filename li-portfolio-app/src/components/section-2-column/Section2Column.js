@@ -2,16 +2,15 @@ import React from "react";
 
 import './Section2Column.css'
 
-import ContactForm from "../contact-form/ContactForm";
 
-function TwoColumn() {
+function TwoColumn(props) {
 
 
     return (
         <>
         <div className="twoColumn">
-            <div className="col"></div>
-            <div className="col"><ContactForm /></div>
+            <div className="col">{props.leftColumn}</div>
+            <div className="col">{props.rightColumn}</div>
 
         </div>
         </>

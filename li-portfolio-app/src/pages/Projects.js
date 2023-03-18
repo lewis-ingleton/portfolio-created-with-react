@@ -5,14 +5,20 @@ import ProjectCard from "../components/projectCard/ProjectCard"
 import projects from '../projects.json';
 import FlexWrapper from "../components/flex-wrapper/FlexWrapper";
 import SmallHeader from "../components/small-header/SmallHeader";
+import Section2Columns from "../components/section-2-column/Section2Column";
 
 
 function Projects() {
     const title = 'Projects'
     const subTitle = `Below you'll see a range of projects that I've been working on. You can view the GitHub repo for more information on each project. You can view the live link (where available).`
+   
     return (
         <>
             <SmallHeader title={title} subTitle={subTitle}/>
+
+        
+
+
             <div className="flex">
                 <ProjectCard
                     title={projects[0].title}
