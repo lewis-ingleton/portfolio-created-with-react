@@ -54,3 +54,7 @@ form>button {
     background-color: white;
     cursor: pointer;
   }
+
+  form>textarea {
+    font-family: inherit;
+  }
