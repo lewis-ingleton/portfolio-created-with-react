@@ -1,0 +1,12 @@
+.twoColumn {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    max-width: 1300px;
+
+}
+
+.col {
+    width: 49%;
+}
