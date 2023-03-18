@@ -22,7 +22,7 @@ function Projects() {
                     image={projects[1].image}
                     description={projects[1].description}
                     repoLink={projects[1].repoLink}
-                    liveLink={projects[1].liveLink}
+                    
                 />
                 <ProjectCard
                     title={projects[2].title}
