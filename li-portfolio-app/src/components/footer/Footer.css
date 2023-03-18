@@ -8,6 +8,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 70px 0px;
+    margin-bottom: 0px;
 }
 
 footer>a {

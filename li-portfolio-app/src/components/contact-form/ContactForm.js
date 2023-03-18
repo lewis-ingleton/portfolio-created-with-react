@@ -8,7 +8,7 @@ function ContactForm() {
     return(
         <>
         <form>
-            <h3>Fill out your details and I'll get back to you</h3>
+            <h3>Enter your details and I'll get back to you</h3>
             <input type="text" placeholder="Enter your name" />
             <input type="text" placeholder="Enter your email address" />
             <textarea placeholder="Enter your message" cols="30" rows="5" />
