@@ -30,18 +30,37 @@
   margin-top: 18px;
 }
 
-.content>a>button {
-  background-color: #F1D302;
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   position: absolute;
   bottom: 0;
   margin-bottom: 20px;
 }
 
-.content>a>button:hover {
+.flex-wrapper>a>button {
+  background-color: #f1d102b5;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.flex-wrapper>a>button:hover {
   border: 1px solid #F1D302;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.flex-wrapper>a:nth-child(2)>button {
+  background-color: #ffb79aa4;
+}
+
+.flex-wrapper>a:nth-child(2)>button:hover {
+  border: 1px solid #ffb79aa4;
   padding: 10px;
   border-radius: 5px;
   background-color: white;

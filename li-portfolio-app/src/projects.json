@@ -4,42 +4,48 @@
         "title": "Weather dashboard",
         "image": "https://creativereview.imgix.net/content/uploads/2023/01/AFC_Stadium_Artworks_REMEMBER_WHO_YOU_ARE.jpg?auto=compress,format&q=60&w=1536&h=510",
         "description": "Using the Open Weather API, this dashboard shows the user the weather for today, as well as a 5-day forecast, for the country they have searched.",
-        "link": "https://github.com/lewis-ingleton/weather-dashboard"
+        "repoLink": "https://github.com/lewis-ingleton/weather-dashboard",
+        "liveLink": "https://github.com/lewis-ingleton/weather-dashboard"
     },
     {
         "id": 2,
         "title": "Team profile generator",
         "image": "https://creativereview.imgix.net/content/uploads/2023/01/AFC_Stadium_Artworks_REMEMBER_WHO_YOU_ARE.jpg?auto=compress,format&q=60&w=1536&h=510",
         "description": "This team profile generator uses node.js and the Inquirer package so that a user can answer questions to generate a HTML file that shows profile of their team members.",
-        "link": "https://github.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator"
+        "repoLink": "https://github.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator",
+        "liveLink": "https://github.com/lewis-ingleton/weather-dashboard"
     },
     {
         "id": 3,
         "title": "Work day scheduler",
         "image": "https://creativereview.imgix.net/content/uploads/2023/01/AFC_Stadium_Artworks_REMEMBER_WHO_YOU_ARE.jpg?auto=compress,format&q=60&w=1536&h=510",
         "description": "A simple calendar application that allows a user to save events for each hour of the day. This code uses DOM manipulation, advanced JavaScript and integration of third-party APIs.",
-        "link": "https://github.com/lewis-ingleton/Daily-Planner-App"
+        "repoLink": "https://github.com/lewis-ingleton/Daily-Planner-App",
+        "liveLink": "https://github.com/lewis-ingleton/weather-dashboard"
     },
     {
         "id": 4,
         "title": "ReadME generator",
         "image": "https://creativereview.imgix.net/content/uploads/2023/01/AFC_Stadium_Artworks_REMEMBER_WHO_YOU_ARE.jpg?auto=compress,format&q=60&w=1536&h=510",
         "description": "This README generator uses node.js so that a user can answer questions to generate a README.md file.",
-        "link": "https://github.com/lewis-ingleton/Readme-generator"
+        "repoLink": "https://github.com/lewis-ingleton/Readme-generator",
+        "liveLink": "https://github.com/lewis-ingleton/weather-dashboard"
     },
     {
         "id": 5,
         "title": "Bootstrap portfolio",
         "image": "https://creativereview.imgix.net/content/uploads/2023/01/AFC_Stadium_Artworks_REMEMBER_WHO_YOU_ARE.jpg?auto=compress,format&q=60&w=1536&h=510",
         "description": "A personal portfolio using Bootstrap framework.",
-        "link": "https://github.com/lewis-ingleton/Bootstrap-Portfolio"
+        "repoLink": "https://github.com/lewis-ingleton/Bootstrap-Portfolio",
+        "liveLink": "https://github.com/lewis-ingleton/weather-dashboard"
     },
     {
         "id": 6,
         "title": "Horiseon homepage refactoring",
         "image": "https://creativereview.imgix.net/content/uploads/2023/01/AFC_Stadium_Artworks_REMEMBER_WHO_YOU_ARE.jpg?auto=compress,format&q=60&w=1536&h=510",
         "description": " have refactored the existing HTML and CSS files in order to improve the accesibility and semantic structure of the Horiseon homepage.",
-        "link": "https://github.com/lewis-ingleton/horiseon-homepage-refactoring"
+        "repoLink": "https://github.com/lewis-ingleton/horiseon-homepage-refactoring",
+        "liveLink": "https://github.com/lewis-ingleton/weather-dashboard"
     }
 
 ]
