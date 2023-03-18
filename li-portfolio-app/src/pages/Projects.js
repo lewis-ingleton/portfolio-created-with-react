@@ -9,7 +9,7 @@ import SmallHeader from "../components/small-header/SmallHeader";
 
 function Projects() {
     const title = 'Projects'
-    const subTitle = `Below you'll see a range of projects that I've been working on. You can view the GitHub repo for more information on each project. You can view the live link (where available).`
+    const subTitle = `Below you'll see a range of projects that I've been working on. You can view the GitHub repo for more information on each project or you can view the live link if one is available for the project.`
    
     return (
         <>
