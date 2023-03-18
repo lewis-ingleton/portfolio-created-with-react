@@ -47,8 +47,8 @@
     {
         "id": 6,
         "title": "Horiseon homepage refactoring",
-        "image": "https://raw.githubusercontent.com/lewis-ingleton/horiseon-homepage-refactoring/blob/main/assets/Final%20page%20screenshot/horiseon-final-page-screenshot.png",
-        "description": " have refactored the existing HTML and CSS files in order to improve the accesibility and semantic structure of the Horiseon homepage.",
+        "image": "https://raw.githubusercontent.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator/main/Test-screenshot/test-screenshot.png",
+        "description": "I have refactored the existing HTML and CSS files in order to improve the accesibility and semantic structure of the Horiseon homepage.",
         "info": "HTML | CSS ",
         "repoLink": "https://github.com/lewis-ingleton/horiseon-homepage-refactoring",
         "liveLink": "https://lewis-ingleton.github.io/horiseon-homepage-refactoring/"

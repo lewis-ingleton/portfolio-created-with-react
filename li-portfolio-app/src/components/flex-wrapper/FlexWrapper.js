@@ -4,9 +4,12 @@ import './FlexWrapper.css'
 
 function FlexWrapper() {
     return (
+        <>
         <div className='flex'>
 
         </div>
+        </>
+        
 
 
     )
