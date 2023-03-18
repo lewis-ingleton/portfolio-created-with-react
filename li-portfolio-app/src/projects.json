@@ -20,7 +20,7 @@
     {
         "id": 3,
         "title": "Work day scheduler",
-        "image": "https://raw.githubusercontent.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator/main/Test-screenshot/test-screenshot.png",
+        "image": "https://raw.githubusercontent.com/lewis-ingleton/Daily-Planner-App/main/assets/screenshot/daily-planner-screenshot.png",
         "description": "A simple calendar application that allows a user to save events for each hour of the day. This code uses DOM manipulation, advanced JavaScript and integration of third-party APIs.",
         "info": "HTML | CSS | JavaScript | Bootstrap ",
         "repoLink": "https://github.com/lewis-ingleton/Daily-Planner-App",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "title": "ReadME generator",
-        "image": "https://raw.githubusercontent.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator/main/Test-screenshot/test-screenshot.png",
+        "image": "https://raw.githubusercontent.com/lewis-ingleton/Readme-generator/main/assets-video/readme-generator.png",
         "description": "This README generator uses node.js so that a user can answer questions to generate a README.md file.",
         "info": "Node.js | HTML | CSS ",
         "repoLink": "https://github.com/lewis-ingleton/Readme-generator",
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "title": "Bootstrap portfolio",
-        "image": "https://raw.githubusercontent.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator/main/Test-screenshot/test-screenshot.png",
+        "image": "https://raw.githubusercontent.com/lewis-ingleton/Bootstrap-Portfolio/main/assets/images/bootstrap-portolio-2.png",
         "description": "A personal portfolio using Bootstrap framework.",
         "repoLink": "https://github.com/lewis-ingleton/Bootstrap-Portfolio",
         "info": "Bootstrap | HTML | CSS ",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "title": "Horiseon homepage refactoring",
-        "image": "https://raw.githubusercontent.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator/main/Test-screenshot/test-screenshot.png",
+        "image": "https://raw.githubusercontent.com/lewis-ingleton/horiseon-homepage-refactoring/main/assets/Final%20page%20screenshot/horiseon-refactoring.png",
         "description": "I have refactored the existing HTML and CSS files in order to improve the accesibility and semantic structure of the Horiseon homepage.",
         "info": "HTML | CSS ",
         "repoLink": "https://github.com/lewis-ingleton/horiseon-homepage-refactoring",
