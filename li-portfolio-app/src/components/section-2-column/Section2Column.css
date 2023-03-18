@@ -4,10 +4,14 @@
     width: 70%;
     margin: auto;
     max-width: 1300px;
-    height: 55vh;
-
+    flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
-.col {
+.colDesktop {
     width: 49%;
+}
+
+.colMobile {
+    width: 100%;
 }

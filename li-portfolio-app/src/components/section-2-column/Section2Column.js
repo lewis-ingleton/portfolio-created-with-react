@@ -1,21 +1,33 @@
 import React from "react";
+import { useMediaQuery, useTheme} from '@mui/material';
 
 import './Section2Column.css'
 
 
 function TwoColumn(props) {
-
+    const theme = useTheme();
+    const mediaSM = useMediaQuery(theme.breakpoints.down('md'));
 
     return (
         <>
-        <div className="twoColumn">
-            <div className="col">{props.leftColumn}</div>
-            <div className="col">{props.rightColumn}</div>
+            {
+                mediaSM ? (
+                    <div className="twoColumn">
+                        <div className="colMobile">{props.leftColumn}</div>
+                        <div className="colMobile">{props.rightColumn}</div>
 
-        </div>
+                    </div>
+
+                ) : (
+                    <div className="twoColumn">
+                        <div className="colDesktop">{props.leftColumn}</div>
+                        <div className="colDesktop">{props.rightColumn}</div>
+                    </div>
+                )
+            }
         </>
     )
 
 }
-    
+
 export default TwoColumn;

@@ -1,8 +1,3 @@
-// Link to github 
-// link to linkedin
-// show email 
-// link to download CV in pdf
-// Contact form for handling events
 
 import React from "react";
 

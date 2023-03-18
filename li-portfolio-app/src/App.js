@@ -10,7 +10,6 @@ import NotFound from './pages/NotFound';
 // Components 
 import Navbar from "./components/navbar/Navbar";
 import Footer from './components/footer/Footer';
-import SmallHeader from './components/small-header/SmallHeader';
 
 
 function App() {
