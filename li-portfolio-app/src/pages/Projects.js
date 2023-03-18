@@ -1,13 +1,17 @@
 import React from "react";
+
+// components
 import ProjectCard from "../components/projectCard/ProjectCard"
 import projects from '../projects.json';
 import FlexWrapper from "../components/flex-wrapper/FlexWrapper";
-import Header from "../components/header/Header";
+import SmallHeader from "../components/small-header/SmallHeader";
+
 
 function Projects() {
+    const title = 'Projects'
     return (
         <>
-            <h1>Projects</h1>
+            <SmallHeader title={title} />
             <div className="flex">
                 <ProjectCard
                     title={projects[0].title}
@@ -24,7 +28,7 @@ function Projects() {
                     info={projects[1].info}
                     description={projects[1].description}
                     repoLink={projects[1].repoLink}
-                    
+                    liveLink={projects[1].repoLink}
                 />
                 <ProjectCard
                     title={projects[2].title}

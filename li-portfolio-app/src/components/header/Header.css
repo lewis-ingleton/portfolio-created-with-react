@@ -1,7 +1,8 @@
 .hero {
     background-image: url(./laptop-hero.jpg);
-    height: 500px;
+    height: 70vh;
     padding: 50px;
+    margin-bottom: 0px;
     background-size: cover;
     background-position: center;
     max-width: 100%;

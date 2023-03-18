@@ -1,9 +1,9 @@
+// Imports
 import React, { useState } from 'react'
 import { AppBar, Toolbar, Avatar, Tabs, Tab, useMediaQuery, useTheme } from '@mui/material'
 import { NavLink } from 'react-router-dom';
 
-
-
+// components and assets
 import logo from './li-headshot-2.png'
 import DrawerComp from '../drawer/Drawer'
 import './Navbar.css'

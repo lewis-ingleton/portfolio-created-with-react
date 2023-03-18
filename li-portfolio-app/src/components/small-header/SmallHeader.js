@@ -1,15 +1,18 @@
 import React from "react";
 
-function SmallHeader() {
+// CSS
+import './SmallHeader.css'
+
+function SmallHeader(props) {
     return (
-        <Title> 
-            
-        </Title>
+        <>
+            <div className="smallHeader">
+                <h1>{props.title}</h1>
+            </div>
+        </>
 
 
     )
-
-
 }
 
 export default SmallHeader;

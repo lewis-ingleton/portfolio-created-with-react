@@ -4,14 +4,18 @@
 // link to download CV in pdf
 // Contact form for handling events
 
-
 import React from "react";
 
+// Components 
+import SmallHeader from "../components/small-header/SmallHeader";
+
+
+
 function Contact() {
+    const title = 'Contact me'
     return (
         <>
-        <h1>Contact me</h1>
-        
+        <SmallHeader title={title}/>
         </>
         
     )
