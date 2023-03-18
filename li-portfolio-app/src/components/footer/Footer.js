@@ -4,8 +4,7 @@ function Footer() {
     return (
         <>
             <footer>
-                <p>Lewis Ingleton 2023</p>
-                <p>Made using React</p>
+                <p>Lewis Ingleton 2023 | Made using React</p>
             </footer>
 
         </>

@@ -9,6 +9,7 @@ function ProjectCard(props) {
       </div>
       <div className="content">
         <h3>{props.title}</h3>
+        <sub>{props.info}</sub>
         <p>{props.description}</p>
         <div className="flex-wrapper">
           <a href={props.repoLink} target="_blank"><button>Go to GitHub repo</button></a>

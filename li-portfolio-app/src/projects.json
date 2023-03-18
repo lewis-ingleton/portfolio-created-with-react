@@ -4,6 +4,7 @@
         "title": "Weather dashboard",
         "image": "https://raw.githubusercontent.com/lewis-ingleton/weather-dashboard/main/assets/image/lewis-ingleton.github.io_weather-dashboard_.png",
         "description": "Using the Open Weather API, this dashboard shows the user the weather for today, as well as a 5-day forecast, for the country they have searched.",
+        "info": "JavaScript | HTML | CSS ",
         "repoLink": "https://github.com/lewis-ingleton/weather-dashboard",
         "liveLink": "https://lewis-ingleton.github.io/weather-dashboard/"
     },
@@ -12,6 +13,7 @@
         "title": "Team profile generator",
         "image": "https://raw.githubusercontent.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator/main/Test-screenshot/test-screenshot.png",
         "description": "This team profile generator uses node.js and the Inquirer package so that a user can answer questions to generate a HTML file that shows profile of their team members.",
+        "info": "Node.js | Inquirer | Jest ",
         "repoLink": "https://github.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator",
         "liveLink": "https://github.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator"
     },
@@ -20,6 +22,7 @@
         "title": "Work day scheduler",
         "image": "https://raw.githubusercontent.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator/main/Test-screenshot/test-screenshot.png",
         "description": "A simple calendar application that allows a user to save events for each hour of the day. This code uses DOM manipulation, advanced JavaScript and integration of third-party APIs.",
+        "info": "HTML | CSS | JavaScript | Bootstrap ",
         "repoLink": "https://github.com/lewis-ingleton/Daily-Planner-App",
         "liveLink": "https://lewis-ingleton.github.io/Daily-Planner-App/"
     },
@@ -28,6 +31,7 @@
         "title": "ReadME generator",
         "image": "https://raw.githubusercontent.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator/main/Test-screenshot/test-screenshot.png",
         "description": "This README generator uses node.js so that a user can answer questions to generate a README.md file.",
+        "info": "Node.js | HTML | CSS ",
         "repoLink": "https://github.com/lewis-ingleton/Readme-generator",
         "liveLink": "https://github.com/lewis-ingleton/Readme-generator"
     },
@@ -37,6 +41,7 @@
         "image": "https://raw.githubusercontent.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator/main/Test-screenshot/test-screenshot.png",
         "description": "A personal portfolio using Bootstrap framework.",
         "repoLink": "https://github.com/lewis-ingleton/Bootstrap-Portfolio",
+        "info": "Bootstrap | HTML | CSS ",
         "liveLink": "https://lewis-ingleton.github.io/Bootstrap-Portfolio/"
     },
     {
@@ -44,6 +49,7 @@
         "title": "Horiseon homepage refactoring",
         "image": "https://raw.githubusercontent.com/lewis-ingleton/Object-Oriented-Programming-Team-Profile-Generator/main/Test-screenshot/test-screenshot.png",
         "description": " have refactored the existing HTML and CSS files in order to improve the accesibility and semantic structure of the Horiseon homepage.",
+        "info": "HTML | CSS ",
         "repoLink": "https://github.com/lewis-ingleton/horiseon-homepage-refactoring",
         "liveLink": "https://lewis-ingleton.github.io/horiseon-homepage-refactoring/"
     }
