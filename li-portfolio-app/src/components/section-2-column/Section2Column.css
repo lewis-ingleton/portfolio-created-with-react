@@ -1,7 +1,7 @@
 .twoColumn {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 70%;
     margin: auto;
     max-width: 1300px;
     height: 55vh;
