@@ -18,7 +18,7 @@ function ContactList() {
                     <a href="mailto:lewis.ingleton1@gmail.com" target="blank">lewis.ingleton1@gmail.com </a><OpenInNewIcon fontSize="inherit"/>
                 </li>
                 <li>
-                    <a href="https://pdfhost.io/v/pr835ZocJ_Lewis_Ingleton_CV_2023" target="blank">Download my CV </a><OpenInNewIcon fontSize="inherit"/>
+                    <a href="https://pdfhost.io/v/c.DOKTDlj_Lewis_Ingleton_CV_2023_inc_front_end" target="blank">Download my CV </a><OpenInNewIcon fontSize="inherit"/>
                 </li>
 
             </ul>

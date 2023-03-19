@@ -61,7 +61,7 @@ function ContactForm() {
     return (
         <>
             <form onSubmit={handleSubmit} >
-                <h3>Enter your details if you want to contact me</h3>
+                <h3>Contact me using this form</h3>
                 <input
                     name="userName"
                     value={formData.userName}
