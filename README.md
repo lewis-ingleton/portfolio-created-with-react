@@ -24,3 +24,5 @@ Where necessary certain components have React media queries to make the pages re
 
 ## Live link 
 https://lewis-ingleton.github.io/portfolio-created-with-react/
+
+![React portfolio screenshot](https://raw.githubusercontent.com/lewis-ingleton/portfolio-created-with-react/main/li-portfolio-app/public/React-portfolio.png?raw=true)
