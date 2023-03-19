@@ -3,7 +3,6 @@ import React from "react";
 // components
 import ProjectCard from "../components/projectCard/ProjectCard"
 import projects from '../projects.json';
-import FlexWrapper from "../components/flex-wrapper/FlexWrapper";
 import SmallHeader from "../components/small-header/SmallHeader";
 
 
