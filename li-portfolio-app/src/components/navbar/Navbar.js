@@ -28,9 +28,9 @@ function Navbar() {
                             <>
                                 <Avatar className='avatarStyle' src={logo} sx={{ width: 56, height: 56 }} />
                                 <Tabs textColor='inherit' value={value} onChange={(e, value) => setValue(value)} indicatorColor='primary'>
-                                    <NavLink className='NavLinks' to='/'><Tab label="Home" /></NavLink>
-                                    <NavLink className='NavLinks' to='/projects'><Tab label="Projects" /></NavLink>
-                                    <NavLink className='NavLinks' to='/contact'><Tab label="Contact" /></NavLink>
+                                    <NavLink className='NavLinks' to='/portfolio-created-with-react/'><Tab label="Home" /></NavLink>
+                                    <NavLink className='NavLinks' to='/projects/'><Tab label="Projects" /></NavLink>
+                                    <NavLink className='NavLinks' to='/contact/'><Tab label="Contact" /></NavLink>
                                 </Tabs>
                             </>
 

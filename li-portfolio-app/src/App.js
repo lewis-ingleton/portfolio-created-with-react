@@ -17,9 +17,9 @@ function App() {
 
       <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/projects' element={<Projects />} />
+          <Route path='/portfolio-created-with-react/' element={<Home />} />
+          <Route path='/contact/' element={<Contact />} />
+          <Route path='/projects/' element={<Projects />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       <Footer />
