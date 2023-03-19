@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f60e2c3c.css",
+    "main.js": "/static/js/main.4e58a65b.js",
+    "static/media/laptop-hero.jpg": "/static/media/laptop-hero.07454db2037887691ecf.jpg",
+    "static/media/li-headshot-2.png": "/static/media/li-headshot-2.1f107511cc33e53f9d8f.png",
+    "index.html": "/index.html",
+    "main.f60e2c3c.css.map": "/static/css/main.f60e2c3c.css.map",
+    "main.4e58a65b.js.map": "/static/js/main.4e58a65b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f60e2c3c.css",
+    "static/js/main.4e58a65b.js"
+  ]
+}
