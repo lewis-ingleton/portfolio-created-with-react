@@ -23,7 +23,7 @@ function Navbar() {
                             <>
                                 <Avatar className='avatarStyle' src={logo} sx={{ width: 56, height: 56 }} />
                                 <DrawerComp />
-                            </>
+                            </> 
                         ) : (
                             <>
                                 <Avatar className='avatarStyle' src={logo} sx={{ width: 56, height: 56 }} />
