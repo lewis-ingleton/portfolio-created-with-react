@@ -1,5 +1,5 @@
 // Imports
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 
 // Pages
@@ -19,15 +19,13 @@ function App() {
   return (
     <>
       <Navbar />
-      <BrowserRouter>
+      
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
-
-      </BrowserRouter>
 
 
       <Footer />
