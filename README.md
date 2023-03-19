@@ -21,3 +21,6 @@ On the contact page the user can see contact info, such as LinkedIn profile and 
 
 ### Responsive pages
 Where necessary certain components have React media queries to make the pages responsive.
+
+## Live link 
+https://lewis-ingleton.github.io/portfolio-created-with-react/
