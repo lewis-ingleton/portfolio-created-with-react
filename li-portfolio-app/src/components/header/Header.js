@@ -1,4 +1,4 @@
-import { useSlotProps } from "@mui/base";
+
 import React from "react";
 import "./Header.css";
 
