@@ -2,7 +2,7 @@
   "name": "li-portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lewis-ingleton.github.io",
+  "homepage": ".",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
