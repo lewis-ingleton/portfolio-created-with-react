@@ -15,7 +15,7 @@ function DrawerComp() {
                 <List>
                     <ListItemButton className="list">
                         <ListItemIcon>
-                            <NavLink className='NavLinks' to='/'>
+                            <NavLink className='NavLinks' to='/portfolio-created-with-react/'>
                             <ListItemText >
                                 Home
                             </ListItemText>
@@ -26,7 +26,7 @@ function DrawerComp() {
 
                     <ListItemButton className="list">
                         <ListItemIcon>
-                        <NavLink className='NavLinks' to='/projects'>
+                        <NavLink className='NavLinks' to='/projects/'>
                             <ListItemText>
                                 Projects
                             </ListItemText>
@@ -36,7 +36,7 @@ function DrawerComp() {
 
                         <ListItemButton className="list">
                         <ListItemIcon>
-                        <NavLink className='NavLinks' to='/contact'>
+                        <NavLink className='NavLinks' to='/contact/'>
                             <ListItemText>
                                 Contact
                             </ListItemText>
