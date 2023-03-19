@@ -1,5 +1,6 @@
 // Imports
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 // Pages
 import Home from './pages/Home'
@@ -18,7 +19,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Router>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
@@ -26,7 +27,7 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
 
-      </Router>
+      </BrowserRouter>
 
 
       <Footer />
