@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.73b98ae7.css",
-    "main.js": "/static/js/main.7a80b2f7.js",
-    "static/media/laptop-hero.jpg": "/static/media/laptop-hero.07454db2037887691ecf.jpg",
-    "static/media/li-headshot-2.png": "/static/media/li-headshot-2.1f107511cc33e53f9d8f.png",
-    "index.html": "/index.html",
-    "main.73b98ae7.css.map": "/static/css/main.73b98ae7.css.map",
-    "main.7a80b2f7.js.map": "/static/js/main.7a80b2f7.js.map"
+    "main.css": "./static/css/main.9107f954.css",
+    "main.js": "./static/js/main.db01a1ab.js",
+    "static/media/laptop-hero.jpg": "./static/media/laptop-hero.07454db2037887691ecf.jpg",
+    "static/media/li-headshot-2.png": "./static/media/li-headshot-2.1f107511cc33e53f9d8f.png",
+    "index.html": "./index.html",
+    "main.9107f954.css.map": "./static/css/main.9107f954.css.map",
+    "main.db01a1ab.js.map": "./static/js/main.db01a1ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.73b98ae7.css",
-    "static/js/main.7a80b2f7.js"
+    "static/css/main.9107f954.css",
+    "static/js/main.db01a1ab.js"
   ]
 }
