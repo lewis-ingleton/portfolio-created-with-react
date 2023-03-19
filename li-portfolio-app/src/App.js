@@ -18,14 +18,18 @@ function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='*' element={<NotFound />} />
-      </Routes>
-  
-    <Footer />
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+
+      </Router>
+
+
+      <Footer />
     </>
   );
 }
