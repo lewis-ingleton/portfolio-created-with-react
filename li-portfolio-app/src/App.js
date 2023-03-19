@@ -1,5 +1,5 @@
 // Imports
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 // Pages
@@ -18,6 +18,8 @@ function App() {
 
   return (
     <>
+
+      <BrowserRouter>
       <Navbar />
       
         <Routes>
@@ -29,6 +31,10 @@ function App() {
 
 
       <Footer />
+      </BrowserRouter>
+      
+
+      
     </>
   );
 }
