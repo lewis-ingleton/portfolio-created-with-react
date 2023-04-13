@@ -4,7 +4,7 @@ import { AppBar, Toolbar, Avatar, Tabs, Tab, useMediaQuery, useTheme } from '@mu
 import { NavLink } from 'react-router-dom';
 
 // components and assets
-import logo from './li-headshot-2.png'
+import logo from './li-headshot.jpg'
 import DrawerComp from '../drawer/Drawer'
 import './Navbar.css'
 
