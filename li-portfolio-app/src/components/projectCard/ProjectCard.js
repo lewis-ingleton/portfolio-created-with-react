@@ -12,8 +12,8 @@ function ProjectCard(props) {
         <sub>{props.info}</sub>
         <p>{props.description}</p>
         <div className="flex-wrapper">
-          <a href={props.repoLink} target="_blank" rel="noreferrer"><button>Go to GitHub repo</button></a>
-          <a href={props.liveLink} target="_blank" rel="noreferrer"><button>Go to deployed page</button></a>
+          <a href={props.repoLink} target="_blank" rel="noreferrer"><button>GitHub repo</button></a>
+          <a href={props.liveLink} target="_blank" rel="noreferrer"><button>Deployed page</button></a>
         </div>
       </div>
     </div>

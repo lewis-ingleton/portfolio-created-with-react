@@ -53,7 +53,7 @@ img {
 }
 
 .flex-wrapper>a>button:hover {
-  border: 1px solid #F1D302;
+  border: 1px solid black;
   padding: 10px;
   border-radius: 5px;
   background-color: white;
@@ -62,8 +62,9 @@ img {
 
 
 .flex-wrapper>a:nth-child(2)>button {
-  background-color: #242325;
-  color: #F1D302;
+  background-color: white;
+  color: black;
+  border: 1px solid #F1D302;
 }
 
 .flex-wrapper>a:nth-child(2)>button:hover {
